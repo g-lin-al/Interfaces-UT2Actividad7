@@ -1,0 +1,19 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#contenedor {
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 50vw;
+    height: 50vw;
+}
+
+#contenedor div {
+    background-color: blue;
+    width: 30%;
+    height: 30%;
+}
