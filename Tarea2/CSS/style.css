@@ -3,16 +3,16 @@
     margin: 0;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
-
 header {
     display: flex;
-    height: 200px;
+    justify-content: space-around;
+    height: 150px;
     width: 100vw;
     align-items: center;
     text-align: center;
     background-image: url(../estilos/imagenes/fondo_cabecera_plusenergy.png);
     background-size: cover;
+    color: white;
 }
 
 header > img {
@@ -37,6 +37,19 @@ footer {
     gap: 30px;
 }
 
+.iconos {
+    display: inline-flex;
+    font-size: 1.5rem;
+}
+
+.iconos div {
+    margin: 0 30px;
+}
+
+.material-symbols-outlined {
+    font-size: 2em;
+}
+
 .item_galeria {
     width: 250px;
 }
@@ -57,6 +70,10 @@ footer {
     align-content: center;
 }
 
-main > h2 {
+main h2 {
     font-family: "Electrolize";
+    text-align: center;
+    color: darkgreen;
+    text-decoration: underline;
+    font-size: 2em;
 }
