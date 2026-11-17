@@ -25,5 +25,5 @@
 }
 
 .item:active {
-    opacity: 0;
+    visibility: hidden;
 }
