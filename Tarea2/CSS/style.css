@@ -13,6 +13,7 @@ header {
     background-image: url(../estilos/imagenes/fondo_cabecera_plusenergy.png);
     background-size: cover;
     color: white;
+    padding: 10px 0;
 }
 
 header > img {
@@ -33,6 +34,7 @@ footer {
 .contenedor {
     display: inline-flex;
     flex-wrap: wrap;
+    justify-content:space-around;
     padding: 5% 5%;
     gap: 30px;
 }
