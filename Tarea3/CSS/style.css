@@ -14,8 +14,45 @@ header {
     color: #F8BD3D;
 }
 
+.contenedor_buscador {
+    display: flex;
+    align-items: center;
+}
+
+.contenedor_buscador > input {
+    background-color: F8BD3D;
+    color: #7B2C08;
+    text-align: center;
+    font-size: 1rem;
+    width: 300px;
+    border-radius: 20px 0 0 20px;
+    border: none;
+    height: 2rem;
+}
+
+.contenedor_buscador > input:focus {
+    background-color: white;
+    color: #7B2C08;
+}
+
+.contenedor_buscador > button {
+    width: 50px;
+    background-color: #F8BD3D;
+    color: #7B2C08;
+    height: 2rem;
+    border-radius: 0 20px 20px 0;
+    border: none;
+}
+
+nav > a {
+    color: #7B2C08;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
 main {
     background-image: url(/Tarea3/estilos/imagenes/fondo_exotic_christmas.jpg);
+    height: 100vh;
 }
 
 header > img {
@@ -32,8 +69,7 @@ nav {
     color: #7B2C08;
 }
 
-h2 {
-    width: 100%;
+main > h2 {
     height: 45px;
     background-color: #7B2C08;
     color: #F8BD3D;
@@ -46,11 +82,42 @@ h2 {
     justify-items: center;
 }
 
+.contenedor_galeria p {
+    background-color: #7B2C08;
+    color: #F8BD3D;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 10px 0;
+}
+
 .item_galeria {
     width: 80%;
+    margin: 15px 0;
 
 }
 
 .item_galeria img {
     width: 100%;
+    height: 60%;
+    border-radius: 25px 25px 0 0;
+}
+
+.item_galeria_detalles {
+    display: flex;
+    border-radius: 0 0 25px 25px;
+    background-color: #7B2C08;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    color: #F8BD3D;
+}
+
+.item_galeria_detalles > button {
+    width: 30%;
+    border-radius: 50px;
+    background-color: #F8BD3D;
+    color: #7B2C08;
+    font-size: 1rem;
+    padding: 10px 0;
+    border: none;
 }
