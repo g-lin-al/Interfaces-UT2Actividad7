@@ -52,6 +52,10 @@ footer {
     font-size: 2em;
 }
 
+.material-symbols-outlined:hover {
+    color: orange;
+}
+
 .item_galeria {
     width: 250px;
 }
