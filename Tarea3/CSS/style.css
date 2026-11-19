@@ -93,7 +93,6 @@ main > h2 {
 .item_galeria {
     width: 80%;
     margin: 15px 0;
-
 }
 
 .item_galeria img {
@@ -109,7 +108,6 @@ main > h2 {
     justify-content: space-around;
     align-items: center;
     padding: 10px 0;
-    color: #F8BD3D;
 }
 
 .item_galeria_detalles > button {
@@ -120,4 +118,9 @@ main > h2 {
     font-size: 1rem;
     padding: 10px 0;
     border: none;
+}
+
+.item_galeria_detalles > span {
+    font-size: 2rem;
+    color: #F8BD3D;
 }
